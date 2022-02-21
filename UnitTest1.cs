@@ -7,12 +7,14 @@ namespace SeleniumCsharp
         [SetUp]
         public void Setup()
         {
+            //First comment - test
         }
 
         [Test]
         public void Test1()
         {
             Assert.Pass();
+            //Second comment - test
         }
     }
 }
